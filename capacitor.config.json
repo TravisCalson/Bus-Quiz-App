@@ -1,0 +1,11 @@
+{
+  "appId": "com.busquiz.game",
+  "appName": "巴士问答",
+  "webDir": "www",
+  "android": {
+    "allowMixedContent": true
+  },
+  "server": {
+    "androidScheme": "https"
+  }
+}

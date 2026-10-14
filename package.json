@@ -1,0 +1,19 @@
+{
+  "name": "bus-quiz",
+  "version": "1.0.0",
+  "description": "香港巴士起止点问答 - 安卓 APP",
+  "main": "index.html",
+  "scripts": {
+    "build": "echo 'static app, no build needed'",
+    "cap:sync": "npx cap sync android",
+    "apk:debug": "cd android && ./gradlew assembleDebug"
+  },
+  "dependencies": {
+    "@capacitor/android": "^7.0.0",
+    "@capacitor/app": "^7.1.2",
+    "@capacitor/core": "^7.0.0"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^7.0.0"
+  }
+}
